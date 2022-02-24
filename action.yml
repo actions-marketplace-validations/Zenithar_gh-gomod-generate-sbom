@@ -1,6 +1,6 @@
-name: CycloneDX GoMod Generate SBOM
+name: CycloneDX GoMod Generate SBOM (Zenithar Fork)
 author: Niklas Düster
-description: Github action to generate a CycloneDX SBOM for Go modules
+description: Github action to generate a CycloneDX SBOM for Go modules with GH Token support
 inputs:
   args:
     description: |
@@ -11,7 +11,7 @@ inputs:
     required: false
   version:
     description: |
-      The version of cyclonedx-gomod to use. 
+      The version of cyclonedx-gomod to use.
       Can be a version range, in which case the latest version matching the range is chosen.
       Minimum allowed version is v1.0.0. Must either be an existing semantic version (e.g. v1.0.0, 1.0.0) or a version range.
     required: true
